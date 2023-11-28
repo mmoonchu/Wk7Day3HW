@@ -2,7 +2,7 @@ import React from 'react'
 
 function EmployeeHeader() {
   return (
-    <div className='EmployeeHeader'>Employee</div>
+    <div className='EmployeeHeader header'>Employee</div>
   )
 }
 

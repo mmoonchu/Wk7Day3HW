@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeHeader() {
   return (
-    <div className='HomeHeader'>Employee Directory</div>
+    <div className='HomeHeader header'>Employee Directory</div>
   )
 }
 

@@ -1,5 +1,5 @@
 :root {
-  --header-height: 2rem;
+  --header-height: 5rem;
 }
 
 body {
@@ -35,6 +35,37 @@ code {
 }
 
 .HomeHeader, .EmployeeHeader, .SearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: var(--header-height);
   width: 100%;
+}
+
+.EmployeeList {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 4px rgb(197, 0, 197) solid;
+}
+
+.header {
+  box-sizing: border-box;
+  border: 4px lightskyblue solid;
+}
+
+.SearchBar {
+  box-sizing: border-box;
+  border: 4px green solid;
+}
+
+.EmployeeListItem {
+  box-sizing: border-box;
+  border: 4px red solid;
+  margin: 2px;
+}
+
+.EmployeePage {
+  box-sizing: border-box;
+  border: 4px gray solid;
 }
